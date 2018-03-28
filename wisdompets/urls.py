@@ -6,5 +6,5 @@ from adoptions import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', views.home, name='home'),
-    re_path(r'^adpotions/(\d+)/', views.pet_detail, name = 'pet_detail'),
+    re_path(r'^adpotions/(\d+)/', views.pet_detail, name='pet_detail'),
 ]
